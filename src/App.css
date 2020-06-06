@@ -4,11 +4,19 @@
     align-items: center;
 }
 
+.options{
+    display: flex;
+    flex-direction: row;
+}
+
 button {
     all: unset;
     background-color: #58a36c;
     padding: 10px;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input {
