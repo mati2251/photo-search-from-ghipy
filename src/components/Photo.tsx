@@ -5,10 +5,8 @@ export interface PhotoProps {
 }
 
 const Photo = (props: PhotoProps) => {
-    return(
-        <div>
-            <img src={props.src}/>
-        </div>
+    return (
+        <img src={props.src} alt=""/>
     )
 }
 
