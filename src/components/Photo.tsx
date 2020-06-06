@@ -1,12 +1,14 @@
 import React from "react";
+import "./Photo.css"
 
 export interface PhotoProps {
-    src: string
+    src: string,
+    alt: string
 }
 
 const Photo = (props: PhotoProps) => {
     return (
-        <img src={props.src} alt=""/>
+        <img className="photo" src={props.src} alt={props.alt}/>
     )
 }
 

@@ -18,3 +18,14 @@ h1{
   margin: 10px 0 10px 0;
   text-shadow: 3px 3px #002e01;
 }
+
+.photoContainer{
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2{
+  margin: 0 0 10px 0;
+}

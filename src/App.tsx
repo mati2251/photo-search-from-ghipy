@@ -27,7 +27,7 @@ const App = () => {
                 const images = JSON.parse(req.responseText)
                 let photos: Array<any> = []
                 images.data.map((item: any) => {
-                    photos.push(<Photo src={item.images.original.url} key={item.embed_url}/>)
+                    photos.push(<Photo src={item.images.original.url} key={item.slug} alt={item.title}/>)
                 })
                 setPhotos(photos)
                 setIsRendered(true)
@@ -54,11 +54,14 @@ const App = () => {
     return (
         <div className="App">
             <h1>PHOTO SEARCH FROM GIPHY</h1>
+            {photosJSX.length === 0 ? <h2>Not found results for sentence: {query}</h2> : <h2>Results for sentence: {query}</h2>}
             <div className="options">
                 <input type="text" placeholder="Insert text" onChange={searchHandlerInput}/>
                 <button onClick={searchHandlerButton}><FiSearch className="icon"/></button>
             </div>
+            <div className="photoContainer">
             {photosJSX}
+            </div>
         </div>
     );
 }
