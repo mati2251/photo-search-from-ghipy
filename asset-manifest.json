@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/photo-search-from-ghipy/static/css/main.cde53645.chunk.css",
+    "main.js": "/photo-search-from-ghipy/static/js/main.af55bef9.chunk.js",
+    "main.js.map": "/photo-search-from-ghipy/static/js/main.af55bef9.chunk.js.map",
+    "runtime-main.js": "/photo-search-from-ghipy/static/js/runtime-main.a0bef49c.js",
+    "runtime-main.js.map": "/photo-search-from-ghipy/static/js/runtime-main.a0bef49c.js.map",
+    "static/js/2.2558b958.chunk.js": "/photo-search-from-ghipy/static/js/2.2558b958.chunk.js",
+    "static/js/2.2558b958.chunk.js.map": "/photo-search-from-ghipy/static/js/2.2558b958.chunk.js.map",
+    "index.html": "/photo-search-from-ghipy/index.html",
+    "precache-manifest.7fd34164001c97a6bd44ca4b863cf5c4.js": "/photo-search-from-ghipy/precache-manifest.7fd34164001c97a6bd44ca4b863cf5c4.js",
+    "service-worker.js": "/photo-search-from-ghipy/service-worker.js",
+    "static/css/main.cde53645.chunk.css.map": "/photo-search-from-ghipy/static/css/main.cde53645.chunk.css.map",
+    "static/js/2.2558b958.chunk.js.LICENSE.txt": "/photo-search-from-ghipy/static/js/2.2558b958.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0bef49c.js",
+    "static/js/2.2558b958.chunk.js",
+    "static/css/main.cde53645.chunk.css",
+    "static/js/main.af55bef9.chunk.js"
+  ]
+}
