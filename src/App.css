@@ -31,3 +31,36 @@ input {
 .icon{
     height: 20px;
 }
+
+@media (max-width: 470px) {
+    h1{
+        font-size: 25px;
+    }
+
+    h2{
+        font-size: 20px;
+    }
+
+    input{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 370px) {
+    h1{
+        font-size: 20px;
+    }
+
+    h2{
+        font-size: 15px;
+    }
+
+    input{
+        font-size: 12px;
+        padding: 2px;
+    }
+
+    .icon{
+        height: 12px;
+    }
+}

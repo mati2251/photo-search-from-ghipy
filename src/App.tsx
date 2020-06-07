@@ -8,7 +8,7 @@ const name = 'q'.replace(/[[\]]/g, '\\$&');
 const regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
     results = regex.exec(window.location.search);
 // @ts-ignore
-if(!results && !results[2]){
+if(!results || !results[2]){
     query = 'hello'
 }
 else {
@@ -16,8 +16,10 @@ else {
     query = decodeURIComponent(results[2].replace(/\+/g, ' '))
 }
 const App = () => {
+    let photos: Array<any> = []
     const [isRendered, setIsRendered] = useState(false)
-    const [photosJSX, setPhotos] = useState()
+    const [photosJSX, setPhotos] = useState(photos)
+
     const search = () => {
         if (!isRendered) {
             const req = new XMLHttpRequest();
@@ -25,7 +27,6 @@ const App = () => {
             req.send(null);
             if (req.status === 200) {
                 const images = JSON.parse(req.responseText)
-                let photos: Array<any> = []
                 images.data.map((item: any) => {
                     photos.push(<Photo src={item.images.original.url} key={item.slug} alt={item.title}/>)
                 })
