@@ -27,6 +27,7 @@ const App = () => {
             req.send(null);
             if (req.status === 200) {
                 const images = JSON.parse(req.responseText)
+                // eslint-disable-next-line array-callback-return
                 images.data.map((item: any) => {
                     photos.push(<Photo src={item.images.original.url} key={item.slug} alt={item.title}/>)
                 })

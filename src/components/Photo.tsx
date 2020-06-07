@@ -8,7 +8,9 @@ export interface PhotoProps {
 
 const Photo = (props: PhotoProps) => {
     return (
-        <img className="photo" src={props.src} alt={props.alt}/>
+        <div className="photo">
+            <img src={props.src} alt={props.alt}/>
+        </div>
     )
 }
 
