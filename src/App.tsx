@@ -52,12 +52,18 @@ const App = () => {
         }
     }
 
+    const searchHandlerEnter = (event: any) => {
+        if( event.key === 'Enter'){
+            searchHandlerButton()
+        }
+    }
+
     return (
         <div className="App">
             <h1>PHOTO SEARCH FROM GIPHY</h1>
             {photosJSX.length === 0 ? <h2>Not found results for sentence: {query}</h2> : <h2>Results for sentence: {query}</h2>}
             <div className="options">
-                <input type="text" placeholder="Insert text" onChange={searchHandlerInput}/>
+                <input type="text" placeholder="Insert text" onChange={searchHandlerInput} onKeyPress={searchHandlerEnter}/>
                 <button onClick={searchHandlerButton}><FiSearch className="icon"/></button>
             </div>
             <div className="photoContainer">
