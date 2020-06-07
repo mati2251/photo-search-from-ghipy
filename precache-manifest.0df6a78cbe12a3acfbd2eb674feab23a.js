@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cca01c985a68e0529f246637c56ec865",
+    "revision": "a5740508a7b35c86cc9a5e342043d1a6",
     "url": "/photo-search-from-ghipy/index.html"
   },
   {
-    "revision": "22ded1a867a9e9957ac9",
-    "url": "/photo-search-from-ghipy/static/css/main.cde53645.chunk.css"
+    "revision": "04ae15e7a5fbe763cff8",
+    "url": "/photo-search-from-ghipy/static/css/main.2b58807f.chunk.css"
   },
   {
     "revision": "15cb3c23be66fbc2959e",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photo-search-from-ghipy/static/js/2.2558b958.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "22ded1a867a9e9957ac9",
-    "url": "/photo-search-from-ghipy/static/js/main.8efc11b1.chunk.js"
+    "revision": "04ae15e7a5fbe763cff8",
+    "url": "/photo-search-from-ghipy/static/js/main.60bf6a4a.chunk.js"
   },
   {
     "revision": "74528d0cb3370b250b87",
