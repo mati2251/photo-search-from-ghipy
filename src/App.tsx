@@ -15,6 +15,8 @@ else {
     // @ts-ignore
     query = decodeURIComponent(results[2].replace(/\+/g, ' '))
 }
+query.replace('+', ' ')
+console.log(query)
 const App = () => {
     let photos: Array<any> = []
     const [isRendered, setIsRendered] = useState(false)
@@ -46,7 +48,7 @@ const App = () => {
 
     const searchHandlerButton = () => {
         if (window.history.pushState) {
-            const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?q=' + query;
+            const newUrl = window.location.protocol + "//" + window.location.host + window.location.pathname + '?q=' + query.replace(' ', '+');
             window.history.pushState({path: newUrl}, '', newUrl);
             setIsRendered(false)
             search()
