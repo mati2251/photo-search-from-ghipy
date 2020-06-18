@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f6d7cf771cd983d79582b9bf6916f67f",
+    "revision": "8550965d83d061162ed232125ca5d8dd",
     "url": "/photo-search-from-ghipy/index.html"
   },
   {
-    "revision": "6cc71ac288af09460d07",
+    "revision": "6aa91dff27e680c3e48f",
     "url": "/photo-search-from-ghipy/static/css/main.593cbc23.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/photo-search-from-ghipy/static/js/2.2558b958.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6cc71ac288af09460d07",
-    "url": "/photo-search-from-ghipy/static/js/main.d7d8109f.chunk.js"
+    "revision": "6aa91dff27e680c3e48f",
+    "url": "/photo-search-from-ghipy/static/js/main.cd54d1fa.chunk.js"
   },
   {
     "revision": "74528d0cb3370b250b87",
